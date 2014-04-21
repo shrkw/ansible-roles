@@ -1,0 +1,10 @@
+---
+- name: Add user
+  user: name={{ item.name }} uid={{ item.userid }}
+  with_items: users
+- name: Put public key for ssh
+  authorized_key: user={{ item.name }} key="{{ item.id_rsa_pub }}"
+  with_items: users
+# if you want to put public key files to file directory, you can use this
+#- authorized_key: user={{ item.name }} key="{{ lookup('file', 'id_rsa.' + item.name +'.pub') }}"
+#  with_items: users

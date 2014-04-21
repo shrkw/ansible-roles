@@ -1,0 +1,8 @@
+Put user info to `vars/main.yml`
+
+```
+users:
+  - name: alice.appleworth
+      userid: 1001
+          id_rsa_pub: "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAgEA7SNlVzz6bmlBZ/Z8fV6H4lvCfrbn+K85GPYaZgg2QnVa7wY2tPzauh3DTLJrdBgsRfz32P812YEUrtTR8KAzihJXiEdTQphF9z7DmqHb82ksWElmJw6pN82asrN2SxEcRYPG7ZHaK1ZdHrt06IdoNomUn3+BuYcZGapsv8NN/JTbjwimZXTHqmLc8Wxc1QU6/Zf/3AA7oG1FrCuXb0NUyQGX0Vf2Ez1m+5UvrjGvY3+1lDayysV0T8l6VkGt1+A4a2Gu7Qu6ks+i8I155Hh4G6QWKUY1VKUvTTl04wqiCvp9ZhYLEbJAaMzuZBCkG65J8EBx2A5HwK7a0I7dM7OOCjGXP71PzeJLjX6S3qY+ljuF0kCtvWiXtTAQAhB3pjdrCUaAS0TRl7GATmtRVbV93Whq8JsqwTdEYOJ7YZhVcyQjdnp3uNqmtVh/tX/1smw94fFWo1xm1npkAAJ9MPp4v0OxkeuWVQNz6zRq4Q0NkFHTlD9MSNsV4VzmWUxYUe2xKz1EOc+VlYWX5gKqhXluQH2kfqa2QoNyAr4paIw46vHr6oRF54EpgyUialMVehSi6vAwPl5drYah0Vnu5z4xM7WDr5/WeJmVz6mDOB7Z2r7xmwUaKdlY5X5l9qgOESPOwEHRcxjW+Onxde9yXcuUC/6Xqc138+gQW7tC7RtAxM8= Alice Appleworth"
+```

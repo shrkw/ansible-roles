@@ -1,0 +1,3 @@
+---
+- include: useradd.yml
+- include: sshd.yml
