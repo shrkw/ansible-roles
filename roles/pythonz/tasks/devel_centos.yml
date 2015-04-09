@@ -1,0 +1,20 @@
+---
+- name: yum groupinstall "Development tools"
+  yum: name="@Development tools" state=present
+  when: ansible_distribution == "CentOS"
+- name: yum install devel packages
+  yum: name={{ item }} state=present
+  with_items:
+    - zlib-devel
+    - bzip2-devel
+    - openssl-devel
+    - readline-devel
+    - ncurses-devel
+    - sqlite-devel
+    - gdbm-devel
+    - db4-devel
+    - expat-devel
+    - libpcap-devel
+    - xz-devel
+    - pcre-devel
+

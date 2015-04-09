@@ -1,0 +1,4 @@
+---
+pythonz_dir: /usr/local/pythonz
+pythonz_rc: "{{ pythonz_dir }}/etc/bashrc"
+python_ver: 2.7.8

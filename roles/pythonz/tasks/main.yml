@@ -1,0 +1,13 @@
+---
+- include: devel_centos.yml
+  when: ansible_distribution == "CentOS"
+- include: devel_ubuntu.yml
+  when: ansible_distribution == "Ubuntu"
+- name: install pythonz
+  shell: curl -kL https://raw.github.com/saghul/pythonz/master/pythonz-install | bash
+- name: install python
+  command: "{{ pythonz_dir }}/bin/pythonz install {{ python_ver }}"
+- name: install pip
+  shell: curl -kL https://bootstrap.pypa.io/get-pip.py | python
+- name: install virtualenv
+  shell: pip install virtualenv
