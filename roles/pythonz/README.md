@@ -2,6 +2,7 @@ Pythons Ansible Role
 ===============================
 
 * Set up development dependencies for Python compiling (CentOS and Ubuntu convertible)
+* Install Pythonz to `/usr/local/pythonz`
 * Install Python binary (default: 2.7.8)
   * You can modify `vars`, if you want to install other binaries
 * Install pip to system default Python
