@@ -3,7 +3,7 @@ Pythons Ansible Role
 
 * Set up development dependencies for Python compiling (CentOS and Ubuntu convertible)
 * Install Pythonz to `/usr/local/pythonz`
-* Install Python binary (default: 2.7.8)
+* Install Python binary (default: 2.7.9)
   * You can modify `vars`, if you want to install other binaries
 * Install pip to system default Python
 * Install virtualenv
@@ -29,5 +29,5 @@ If you want to run just this role, you can just create `hosts` file,
 You can execute as a simple playbook.
 
 ```
-ansible-playbook -i hosts site.yml
+ansible-playbook -i hosts playbook.yml
 ```
