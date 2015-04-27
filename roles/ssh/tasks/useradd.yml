@@ -1,6 +1,6 @@
 ---
 - name: Add user
-  user: name={{ item.name }} uid={{ item.userid }}
+  user: name={{ item.name }} uid={{ item.userid }} group={{ item.group }}
   with_items: users
 - name: Put public key for ssh
   authorized_key: user={{ item.name }} key="{{ item.id_rsa_pub }}"
